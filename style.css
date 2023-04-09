@@ -1,0 +1,105 @@
+.home {
+    background-color: black;
+    padding: auto;
+    padding-bottom: 1000px;
+} 
+
+h1 {
+    color: white;
+    height: 50px;
+}
+
+h2{
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+.topnav #logo {
+    width: 35px;
+    height: 15px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+/* .hamburger {
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+} */
+
+.line {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 20px;
+}
+
+.websites {
+    padding-left: 20px;
+}
+
+.link {
+    color: brown;
+}
+
+#searchbar {
+    height: 30px;
+    width: 300px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 350px ;
+    padding-inline-end: 300px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+/* #icon {
+    background-color: white;
+    color: black;
+} */
+
+#searchbtn {
+    border-radius: 10px;
+    border-color: black;
+    height: 35px;
+    width: 40px;
+    background-color: black;
+    color: white;
+}
+
+#mylinks {
+    display: none;
+    cursor: pointer;
+}
+
+.topnav a.icon {
+    position: fixed;
+    border-radius: auto;
+}
+
+.topnav a.icon:hover {
+    background-color: brown;
+    width: auto;
+}
+
+.topnav a {
+    color: white;
+    padding: 13px 16px;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+
+.topnav a:hover {
+    background-color: pink;
+    width: 100px;
+}

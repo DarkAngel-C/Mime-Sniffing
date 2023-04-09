@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+    <title>Mime Sniffing Demo</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="home">
+        <h1>
+            <div class="topnav" id="links">
+                <a href="javascript:void(0);" class="icon" onclick=showLinks()>
+                    <i class="fa fa-bars"></i>
+                </a>
+                <img class="icon" id="logo" src="logo.png" alt="Failed to load"/>
+                <input type="text" placeholder="Search" id="searchbar">
+                <button type="button" id="searchbtn" onclick=search()>
+                    <i class="fa fa-search"></i>
+                </button>
+                <div id="mylinks">
+                    <a>Home</a>
+                    <a onclick=showWebsites()>Websites</a>
+                    <a>Contacts</a>
+                    <a>About</a>
+                </div>
+            </div>
+        </h1>
+
+        <!-- <div class="websites">
+            <h2>We have following websites to attack:</h2>
+            <ul>
+                <a class="link" href="http://127.0.0.1:5500/index_1.html">Dummy</a>
+            </ul>
+            <ul>
+                <a class="link" href="" target="_blank">Yet to come</a>
+            </ul>
+        </div> -->
+    </div>
+</body>
+</html>
